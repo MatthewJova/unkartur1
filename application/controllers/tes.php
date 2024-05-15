@@ -5,7 +5,7 @@ class tes extends CI_Controller{
     public function index(){
         $this->load->view('header');
         $this->load->view('menu');
-        $this->load->view('hasil');
+        $this->load->view('hasil',$data);
     }
 
     /*public function proses()
